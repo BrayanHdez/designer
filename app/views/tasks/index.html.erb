@@ -1,0 +1,80 @@
+<p id="notice"><%= notice %></p>
+
+<div class="hoja">
+<h3 class="centro-task" >Tasks</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Code</th>
+      <th>Due date</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @tasks.each do |task| %>
+      <tr>
+        <td><%= task.name %></td>
+        <td><%= task.description %></td>
+        <td><%= task.code %></td>
+        <td><%= task.due_date %></td>
+        <td><%= link_to 'Show', task %></td>
+        <td><%= link_to 'Edit', edit_task_path(task) %></td>
+        <td><%= button_to 'Destroy', task, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+
+
+<div>
+<h2 class = 'centra'>Diciembre 2021</div>
+<div class = "agenda">
+<li class="day-name">Lun</li>
+<li class="day-name">Mar</li>
+<li class="day-name">Mie</li>
+<li class="day-name">Jue</li>
+<li class="day-name">Vie</li>
+<li class="day-name">Sab</li>
+<li class="day-name">Dom</li>
+
+<li  class="centros">29</li>
+<li  class="centros">30</li>
+<li  class="centros" class='first-day'>  <%= link_to '1', new_task_path %></li>
+<li class="centros"> <%= link_to '2', new_task_path %></li>
+<li class="centros"> <%= link_to '3', new_task_path %></li>
+<li class="centros"> <%= link_to '4', new_task_path %></li>
+<li class="centros"> <%= link_to '5', new_task_path %></li>
+<li class="centros"> <%= link_to '6', new_task_path %></li>
+<li class="centros"> <%= link_to '7', new_task_path %></li>
+<li class="centros"> <%= link_to '8', new_task_path %></li>
+<li class="centros"> <%= link_to '9', new_task_path %></li>
+<li class="centros"> <%= link_to '10', new_task_path %></li>
+<li class="centros"> <%= link_to '11', new_task_path %></li>
+<li class="centros"> <%= link_to '12', new_task_path %></li>
+<li class="centros"> <%= link_to '13', new_task_path %></li>
+<li class="centros"> <%= link_to '14', new_task_path %></li>
+<li class="centros"> <%= link_to '15', new_task_path %></li>
+<li class="centros"> <%= link_to '16', new_task_path %></li>
+<li class="centros"> <%= link_to '17', new_task_path %></li>
+<li class="centros"> <%= link_to '18', new_task_path %></li>
+<li class="centros"> <%= link_to '19', new_task_path %></li>
+<li class="centros"> <%= link_to '20', new_task_path %></li>
+<li class="centros"> <%= link_to '21', new_task_path %></li>
+<li class="centros"> <%= link_to '22', new_task_path %></li>
+<li class="centros"> <%= link_to '23', new_task_path %></li>
+<li class="centros"> <%= link_to '24', new_task_path %></li>
+<li class="centros"> <%= link_to '25', new_task_path %></li>
+<li class="centros"> <%= link_to '26', new_task_path %></li>
+<li class="centros"> <%= link_to '27', new_task_path %></li>
+<li class="centros"> <%= link_to '28', new_task_path %></li>
+<li class="centros"> <%= link_to '29', new_task_path %></li>
+<li class="centros"> <%= link_to '30', new_task_path %></li>
+<li class="centros"> <%= link_to '31', new_task_path %></li>
+</div>

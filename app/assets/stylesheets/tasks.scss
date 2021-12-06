@@ -1,0 +1,117 @@
+body {
+
+    padding: 1px;
+    margin: 1px;
+    background-color: #7fffd4;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.hoja {
+    background-color: rgb(240, 242, 243);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.agenda  {
+    margin: 1em auto;
+    padding: 5em 1;
+    margin: 0em;
+    padding-bottom: 15vh;
+    margin-left: 125px;
+    background: rgb(239, 240, 241);
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr)
+
+    
+
+}
+
+.first-day {
+    grid-column-start: 3;
+}
+
+.day-name {
+    margin-left: 0px;
+    text-align: center;
+    background: rgb(11, 220, 235);
+    font-weight: bold;
+    
+}
+
+ 
+
+
+.centro {
+    text-align: center;
+}
+
+.centro-task {
+    text-align: center;
+    margin-left: 5px;
+    background: rgb(113, 168, 223);
+    list-style: none;
+    display: grid;
+}
+
+.centra{
+
+    text-align: center;
+    margin-left: 5px;
+    background: rgb(117, 177, 236);
+    list-style: none;
+    display: grid;
+}
+.centros {
+    background-color: rgb(240, 242, 243);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+
+body {
+
+    padding: 1px;
+    margin: 1px;
+    background-color: #7fffd4;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.task {
+    background-color: rgb(33, 141, 196);
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+    margin-left: 100px;
+    background: rgb(239, 240, 241);
+   
+  
+}
+
+.gods{
+    background-color: rgb(53, 146, 199);
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.plan {
+    margin-left: 0px;
+    background: rgb(224, 227, 230);
+    
+
+}
+
